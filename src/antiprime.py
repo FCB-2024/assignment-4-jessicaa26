@@ -1,8 +1,6 @@
 ## ADD WHATEVER ARGUMENTS ARE NECESSARY TO THE MAIN FUNCTION
 ## IN THE SAME ORDER AS THE ARGUMENTS ARE TAKEN FROM THE
 ## COMMAND LINE SPECIFIED BELOW
-import sys
-x = int(sys.argv [1])
 
 def main(x) :
 	sum1 = 0
@@ -34,7 +32,8 @@ def main(x) :
 
 ## DO NOT REMOVE THIS LINE BELOW
 if __name__ == "__main__" :
-
+	import sys
+	x = int(sys.argv [1])
 	## MODIFY THE LINE BELOW AND ADD BEFORE WHATEVER LINES ARE NECESSARY
 	## TO RUN THIS PROGRAM AS, FOR INSTANCE:
 	## $ python antiprime.py 6
